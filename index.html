@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AgriMarket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">AgriMarket</div>
+    <nav>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Buy Fresh Produce<br>from Local Farmers</h1>
+      <button onclick="getStarted()">Get Started</button>
+    </section>
+
+    <h1>Buy Fresh Produce From Local Farmers</h1>
+      <h2>Available Products</h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="./assert/tomantos.jpg" alt="Tomatoes">
+          <h3>Tomatoes</h3>
+          <p>C10 per crate</p>
+          <button onclick="addToCart('Tomatoes')">Add to cart</button>
+        </div>
+
+        <div class="product">
+          <img src="./assert/maize.webp" alt="Maize">
+          <h3>Maize</h3>
+          <p>C15 bag</p>
+
+          <button onclick="addToCart('Maize')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="./assert/car.jpg" alt="Cucumbers">
+          <h3>Cucumbers</h3>
+          <p>C12 per pack</p>
+          <button onclick="addToCart('Cucumbers')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="./assert/potatos.jpg" alt="Potatoes">
+          <h3>Potatoes</h3>
+          <p>C10 per bag</p>
+          <button onclick="addToCart('Potatoes')">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="./assert/avacado.webp" alt="Avocado">
+          <h4>Avocado</h4>
+          <p>C10 per bag</p>
+          <button onclick="addToCart('mangos')">Add to cart</button><br>
+        </div>
+        <div class="product">
+          <img src="./assert/mangos.webp" alt="mangos">
+          <h4>Mangos</h4>
+          <p>C10 per bag</p>
+          <button onclick="addToCart('mangos')">Add to cart</button><br>
+        </div>
+        <div class="product">
+          <img src="/assert/R.webp" alt="oranges">
+          <h4>Oranges</h4>
+          <p>C10 per bag</p>
+          <button onclick="addToCart('oranges')">Add to cart</button><br>
+        </div>
+        <div class="product">
+          <img src="./assert/apples.webp" alt="Apples">
+          <h4>Apples</h4>
+          <p>C10 per bag</p>
+          <button onclick="addToCart('apples')">Add to cart</button><br>
+
+        </div>
+          <div class="product">
+          <img src="./assert/coconut.webp" alt="Coconuts">
+          <h4>Coconuts</h4>
+          <p>C10 per bag</p>
+          <button onclick="addToCart('coconuts')">Add to cart</button><br>
+        </div>
+        <div class="product">
+          <img src="./assert/cabbage.jpeg" alt="Cabbage">
+          <h4>Cabbage</h4>
+          <p>C10 per bag</p>  
+          <button onclick="addToCart('cabbage')">Add to cart</button><br>
+        </div>
+    </section>
+  </main>
+  <hr>
+                                
+  <script src="script.js"></script>
+</body>
+</html>

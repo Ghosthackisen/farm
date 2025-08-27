@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - AgriMarket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8f4;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+    
+    
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2b7a0b;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #2b7a0b;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #246a09;
+    }
+    img{
+      height: 300px;
+  border-radius: 50%; 
+  object-fit: cover;  
+  border: 3px solid #4caf50; 
+  background-color: #ccc; 
+  position: absolute;
+  width: 300px;;
+  left:50%;
+  top: 30%;
+}
+    .button{
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+    }
+  </style>
+<body>
+  <header>
+    <div class="logo">AgriMarket</div>
+    <nav>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Sign Up</a>
+    </nav>
+  </header>
+<form action="login.php" method="POST">
+
+    <h2>Create an Account</h2>
+  <form action="/submit-signup" method="POST">
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <input type="submit" value="Sign Up">
+<img src="./assert/tomantos.jpg" alt="Casava">
+
+    <p style="text-align: center;">
+      If you have any questions or need assistance, please
+      contact us 
+      <a href="v">kobby@gmail.com,</a>
+      
+<button class="case" onclick="window.location.href='products.html'">login</button>
+      <br>
+      <a href="login.html">helps</a>#2b7a0b
+
+    </p>
+
+    
+
+
+      
+    </form>
+  </main>
+</body>
+</html>
